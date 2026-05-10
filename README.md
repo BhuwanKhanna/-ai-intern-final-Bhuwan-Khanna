@@ -1,6 +1,6 @@
 # Research Assistant
 
-An AI-Powered Research Assistant that uses the Gemini API and MCP integration to generate structured and accurate research summaries on user-provided topics. The system fetches real-time contextual information through MCP servers and processes it intelligently using AI. The assistant also supports exporting research reports into .PDF and .TXT formats for documentation and sharing.
+An AI-Powered Research Assistant that uses the Gemini API and MCP integration to generate structured and accurate research summaries on user-provided topics. The system fetches real-time contextual information through MCP servers and processes it using AI(Gemini API). The assistant also supports exporting research reports into .PDF and .TXT formats for documentation and sharing.
 
 ## Key Features
 *   **Intelligence Synthesis**: Automated multi-source research generation.
