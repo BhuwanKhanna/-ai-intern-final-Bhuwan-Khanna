@@ -3,7 +3,7 @@ from mcp.server.fastmcp import FastMCP
 from duckduckgo_search import DDGS
 import json
 
-# Initialize FastMCP Server
+# Initializing FastMCP Server
 mcp = FastMCP("ResearchAssistantTools")
 
 @mcp.tool()
