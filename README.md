@@ -5,8 +5,8 @@ An AI-Powered Research Assistant that uses the Gemini API and MCP integration to
 ## Key Features
 *   **Intelligence Synthesis**: Automated multi-source research generation.
 *   **Real-time Integration**: Live data retrieval via Model Context Protocol (MCP).
-*   **Institutional Export**: Professional document generation in PDF and TXT formats.
-*   **Executive Workspace**: Minimalist, high-fidelity user interface.
+*   **Export**: Professional document generation in PDF and TXT formats.
+*   **Workspace**: High-fidelity user interface.
 
 ## Prerequisites
 *   Python 3.10 or higher
@@ -36,7 +36,7 @@ An AI-Powered Research Assistant that uses the Gemini API and MCP integration to
    ```
 
 2. Launch the interface:
-   *   Open `frontend/index.html` in any modern web browser.
+   *   Open `frontend/index.html` in any web browser.
 
 ## Project Structure
 *   `backend/`: API server, research agent logic, and MCP tools.
