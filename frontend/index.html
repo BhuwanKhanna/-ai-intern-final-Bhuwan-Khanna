@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Research Assistant</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</head>
+<body class="obsidian-theme">
+    <!-- Ambient Light Effects -->
+    <div class="ambient-bg">
+        <div class="glow-spot spot-1"></div>
+        <div class="glow-spot spot-2"></div>
+    </div>
+
+    <!-- Immersive Dark Splash Screen -->
+    <div id="splashScreen" class="splash-screen">
+        <div class="splash-content">
+            <div class="neural-core">
+                <div class="core-ring"></div>
+                <div class="core-dot"></div>
+            </div>
+            <h1 class="splash-title">RESEARCH <span>ASSISTANT</span></h1>
+            <div class="loading-bar-wrap">
+                <div class="loading-bar-progress"></div>
+            </div>
+            <div class="splash-status">INITIALIZING SYSTEM...</div>
+        </div>
+    </div>
+
+    <div id="mainContent" class="obsidian-wrapper" style="opacity: 0;">
+        <nav class="obsidian-nav">
+            <div class="nav-brand">◈ RESEARCH <span>ASSISTANT</span></div>
+        </nav>
+
+        <header class="obsidian-header">
+            <h1 class="hero-text">RESEARCH <span>ASSISTANT</span></h1>
+            <p>
+                An AI-Powered Research Assistant that uses the Gemini API and MCP integration to generate structured and accurate research summaries on user-provided topics. The system fetches real-time contextual information through MCP servers and processes it intelligently using AI. The assistant also supports exporting research reports into .PDF and .TXT formats for documentation and sharing.
+            </p>
+        </header>
+
+        <main class="obsidian-main">
+            <section class="search-section">
+                <div class="glass-input-box">
+                    <input type="text" id="topicInput" placeholder="Specify Topic For Research">
+                    <button id="searchBtn">
+                        <span class="btn-text">START RESEARCH</span>
+                    </button>
+                </div>
+            </section>
+
+            <section class="result-section">
+                <div class="obsidian-card">
+                    <div class="card-header">
+                        <div class="export-actions" id="exportOptions" style="display: none;">
+                            <button onclick="exportResult('txt')" class="glass-btn">TXT</button>
+                            <button onclick="exportResult('pdf')" class="glass-btn">PDF</button>
+                        </div>
+                    </div>
+                    <div class="card-body" id="reportContent">
+                        <div class="empty-state">
+                            <div class="empty-icon">✧</div>
+                            <h3>System Ready</h3>
+                            <p>Enter a research objective above to begin synthesis.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <div id="toast" class="toast"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
