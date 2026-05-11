@@ -97,7 +97,8 @@ PDF / TXT EXPORT
 <img width="1896" height="988" alt="image" src="https://github.com/user-attachments/assets/eab878fa-14a1-4f44-a92d-fb44b18548a2" />
 
 ---
-<img width="1890" height="989" alt="image" src="https://github.com/user-attachments/assets/14049848-a7fb-4f3c-be98-0069e3868ee2" />
+![Dashboard](Screenshot%202026-05-11%20103010.png)
+
 
 ---
 
