@@ -15,8 +15,15 @@ The project combines modern AI reasoning, modular MCP architecture, real-time se
 
 ## MCP Tool Integration
 - MCP-compatible modular architecture
-- Dynamic AI tool orchestration
-- Real-time contextual information retrieval
+- 
+The assistant includes multiple MCP-powered tools:
+
+| Tool | Description |
+|------|-------------|
+| web_search | Performs live internet searches |
+| save_research | Saves generated reports locally |
+| list_past_research | Lists all previous reports |
+| read_research_file | Reads saved research files |
 
 ## Real-Time Web Search
 - Integrated DuckDuckGo search engine
@@ -223,38 +230,6 @@ frontend/index.html
 
 in any web browser.
 
----
-
-# MCP TOOLS
-
-The assistant includes multiple MCP-powered tools:
-
-| Tool | Description |
-|------|-------------|
-| web_search | Performs live internet searches |
-| save_research | Saves generated reports locally |
-| list_past_research | Lists all previous reports |
-| read_research_file | Reads saved research files |
-
----
-
-# RESEARCH WORKFLOW
-
-```text
-Enter Research Topic
-        ↓
-AI Research Agent
-        ↓
-Gemini AI Processing
-        ↓
-MCP Tool Invocation
-        ↓
-Real-Time Web Retrieval
-        ↓
-Structured Report Generation
-        ↓
-PDF / TXT Export
-```
 
 # EXPORT FEATURES
 
