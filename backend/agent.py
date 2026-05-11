@@ -20,7 +20,7 @@ class ResearchAgent:
         self.tools = [web_search, save_research, list_past_research, read_research_file]
         
         self.model = genai.GenerativeModel(
-            model_name='gemini-1.5-flash',
+            model_name='gemini-3.1-flash-lite',
             tools=self.tools
         )
 
