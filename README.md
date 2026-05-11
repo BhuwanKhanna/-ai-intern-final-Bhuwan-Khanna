@@ -35,7 +35,7 @@ The assistant includes multiple MCP-powered tools:
   - TXT format
 - Local storage for generated reports
 
-## Modern Frontend Workspace
+## Frontend Workspace
 - High-fidelity responsive UI
 - Interactive research workflow
 - Clean and professional interface
