@@ -21,7 +21,7 @@ window.addEventListener('DOMContentLoaded', () => {
         setTimeout(() => {
             splashScreen.style.display = 'none';
             mainContent.style.opacity = '1';
-            // Auto-focus the input for an intuitive user experience
+            // Auto-focus the input 
             topicInput.focus();
         }, 1000);
     }, 2500);
