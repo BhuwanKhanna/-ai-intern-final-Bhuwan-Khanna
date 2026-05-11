@@ -85,8 +85,7 @@ PDF / TXT EXPORT
 
 ## Dashboard Interface
 
-<!-- Add Screenshot -->
-![Dashboard](screenshots/dashboard.png)
+<img width="1897" height="990" alt="image" src="https://github.com/user-attachments/assets/e2f6d5e9-0cf4-4c06-901f-cbcd745f9483" />
 
 ---
 
