@@ -3,7 +3,7 @@ import google.generativeai as genai
 from dotenv import load_dotenv
 import traceback
 
-# Import our MCP Tool Logic
+# Importing the MCP Tool Logic
 from .mcp_tools import web_search, save_research, list_past_research, read_research_file
 
 load_dotenv()
