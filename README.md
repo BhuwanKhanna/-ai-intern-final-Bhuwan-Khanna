@@ -1,44 +1,327 @@
-# Research Assistant
+# AI Research Assistant
 
-An AI-Powered Research Assistant that uses the Gemini API and MCP integration to generate structured and accurate research summaries on user-provided topics. The system fetches real-time contextual information through MCP servers and processes it using AI(Gemini API). The assistant also supports exporting research reports into .PDF and .TXT formats for documentation and sharing.
+An advanced AI-Powered Research Assistant that uses the Gemini API and MCP integration to generate structured, intelligent, and real-time research reports on user-provided topics. The system performs live web retrieval through MCP tools, processes contextual information using AI, and exports professional research reports in PDF and TXT formats.
 
-## Key Features
-*   **Intelligence Synthesis**: Automated multi-source research generation.
-*   **Real-time Integration**: Live data retrieval via Model Context Protocol (MCP).
-*   **Export**: Professional document generation in PDF and TXT formats.
-*   **Workspace**: High-fidelity user interface.
+The project combines modern AI reasoning, modular MCP architecture, real-time search retrieval, persistent research memory, and professional report generation into a unified end-to-end research workflow.
 
-## Prerequisites
-*   Python 3.10 or higher
-*   Google Gemini API Key
+---
 
-## Installation
+# FEATURES
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/research-assistant.git
-   ```
+## AI-Powered Research Generation
+- Generates structured and detailed research reports
+- Uses Google Gemini for intelligent reasoning and synthesis
+- Supports deep technical and analytical content generation
 
-2. Install the required dependencies:
-   ```bash
-   pip install -r backend/requirements.txt
-   ```
+## MCP Tool Integration
+- MCP-compatible modular architecture
+- Dynamic AI tool orchestration
+- Real-time contextual information retrieval
 
-3. Configure environment variables:
-   *   Create a `.env` file in the root directory.
-   *   Add your API key: `GEMINI_API_KEY=your_actual_key_here`
+## Real-Time Web Search
+- Integrated DuckDuckGo search engine
+- Multi-source information aggregation
+- Live internet research capability
 
-## Running the Application
+## Export System
+- Export reports in:
+  - PDF format
+  - TXT format
+- Local storage for generated reports
 
-1. Start the backend server:
-   ```bash
-   python -m uvicorn backend.main:app --reload
-   ```
+## Persistent Research Memory
+- Save previous research sessions
+- Read historical research files
+- Reuse context from earlier reports
 
-2. Launch the interface:
-   *   Open `frontend/index.html` in any web browser.
+## Modern Frontend Workspace
+- High-fidelity responsive UI
+- Interactive research workflow
+- Clean and professional interface
 
-## Project Structure
-*   `backend/`: API server, research agent logic, and MCP tools.
-*   `frontend/`:  Used user interface assets (HTML, CSS, JS).
-*   `research_exports/`: Local directory for saved research reports.
+---
+
+# SYSTEM ARCHITECTURE
+
+```text
+USER INPUT
+     ↓
+FRONTEND INTERFACE
+     ↓
+FASTAPI BACKEND
+     ↓
+RESEARCH AGENT
+     ↓
+GEMINI AI MODEL
+     ↓
+MCP TOOL SERVER
+ ├── web_search()
+ ├── save_research()
+ ├── list_past_research()
+ └── read_research_file()
+     ↓
+FINAL RESEARCH REPORT
+     ↓
+PDF / TXT EXPORT
+```
+
+---
+
+# TECH STACK
+
+| Technology | Purpose |
+|------------|---------|
+| Python | Backend Development |
+| FastAPI | API Server |
+| Gemini API | AI Research Generation |
+| MCP | Tool Orchestration |
+| DuckDuckGo Search | Real-Time Search |
+| HTML/CSS/JavaScript | Frontend UI |
+| Uvicorn | ASGI Server |
+
+---
+
+# PROJECT PREVIEW
+
+## Dashboard Interface
+
+<!-- Add Screenshot -->
+![Dashboard](screenshots/dashboard.png)
+
+---
+
+## Research Generation Workspace
+
+<!-- Add Screenshot -->
+![Workspace](screenshots/workspace.png)
+
+---
+
+## Generated Research Output
+
+<!-- Add Screenshot -->
+![Research Output](screenshots/output.png)
+
+---
+
+## PDF Export Feature
+
+<!-- Add Screenshot -->
+![PDF Export](screenshots/pdf_export.png)
+
+---
+
+# PROJECT STRUCTURE
+
+```bash
+research-assistant/
+│
+├── backend/
+│   ├── main.py
+│   ├── agent.py
+│   ├── mcp_tools.py
+│   ├── requirements.txt
+│   └── utils/
+│
+├── frontend/
+│   ├── index.html
+│   ├── style.css
+│   └── script.js
+│
+├── research_exports/
+│
+├── screenshots/
+│
+├── .env
+├── README.md
+└── LICENSE
+```
+
+---
+
+# PREREQUISITES
+
+Before running the project, ensure you have:
+
+- Python 3.10 or higher
+- Google Gemini API Key
+
+---
+
+# INSTALLATION
+
+## 1. Clone the Repository
+
+```bash
+git clone https://github.com/your-username/research-assistant.git
+
+cd research-assistant
+```
+
+---
+
+## 2. Create a Virtual Environment
+
+### Windows
+
+```bash
+python -m venv venv
+
+venv\Scripts\activate
+```
+
+### Linux / macOS
+
+```bash
+python3 -m venv venv
+
+source venv/bin/activate
+```
+
+---
+
+## 3. Install Dependencies
+
+```bash
+pip install -r backend/requirements.txt
+```
+
+---
+
+# ENVIRONMENT CONFIGURATION
+
+Create a `.env` file in the root directory:
+
+```env
+GEMINI_API_KEY=your_actual_key_here
+```
+
+---
+
+# RUNNING THE APPLICATION
+
+## Start Backend Server
+
+```bash
+python -m uvicorn backend.main:app --reload
+```
+
+Backend Server:
+
+```text
+http://127.0.0.1:8000
+```
+
+---
+
+## Launch Frontend Interface
+
+Open:
+
+```text
+frontend/index.html
+```
+
+in any web browser.
+
+---
+
+# MCP TOOLS
+
+The assistant includes multiple MCP-powered tools:
+
+| Tool | Description |
+|------|-------------|
+| web_search | Performs live internet searches |
+| save_research | Saves generated reports locally |
+| list_past_research | Lists all previous reports |
+| read_research_file | Reads saved research files |
+
+---
+
+# RESEARCH WORKFLOW
+
+```text
+Enter Research Topic
+        ↓
+AI Research Agent
+        ↓
+Gemini AI Processing
+        ↓
+MCP Tool Invocation
+        ↓
+Real-Time Web Retrieval
+        ↓
+Structured Report Generation
+        ↓
+PDF / TXT Export
+```
+
+---
+
+# EXAMPLE RESEARCH TOPICS
+
+- Artificial Intelligence in Healthcare
+- Future of Renewable Energy
+- Quantum Computing Applications
+- Sustainable Smart Cities
+- Blockchain in Finance
+- Global Electric Vehicle Market
+- Climate Technology Innovations
+
+---
+
+# EXPORT FEATURES
+
+Generated reports can be exported in:
+
+- Professional PDF Documents
+- TXT Research Files
+
+All generated reports are stored inside:
+
+```text
+research_exports/
+```
+
+---
+
+# FUTURE IMPROVEMENTS
+
+- Citation and source tracking
+- Multi-agent collaboration
+- AI-generated charts and visualizations
+- Vector database memory
+- Semantic search integration
+- Cloud deployment
+- Voice-enabled research assistant
+- Research ranking and scoring system
+
+---
+
+# PERFORMANCE HIGHLIGHTS
+
+- Real-time information retrieval
+- Modular MCP architecture
+- Persistent research memory
+- Long-form AI report generation
+- Scalable backend design
+- Automated export pipeline
+
+---
+
+# LICENSE
+
+This project is licensed under the MIT License.
+
+---
+
+# AUTHOR
+
+Developed by Bhuwan Khanna
+
+---
+
+# STAR THE REPOSITORY
+
+If you found this project useful, consider giving it a star on GitHub.
