@@ -40,5 +40,5 @@ An AI-Powered Research Assistant that uses the Gemini API and MCP integration to
 
 ## Project Structure
 *   `backend/`: API server, research agent logic, and MCP tools.
-*   `frontend/`: Institutional user interface assets (HTML, CSS, JS).
+*   `frontend/`:  Used user interface assets (HTML, CSS, JS).
 *   `research_exports/`: Local directory for saved research reports.
