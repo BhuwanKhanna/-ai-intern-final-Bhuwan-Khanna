@@ -86,6 +86,7 @@ PDF / TXT EXPORT
 ## Dashboard Interface
 <img width="1896" height="995" alt="image" src="https://github.com/user-attachments/assets/61ec30fa-9743-4bfe-b776-c0875a8d6c37" />
 
+---
 
 <img width="1897" height="990" alt="image" src="https://github.com/user-attachments/assets/e2f6d5e9-0cf4-4c06-901f-cbcd745f9483" />
 
