@@ -84,6 +84,8 @@ PDF / TXT EXPORT
 # PROJECT PREVIEW
 
 ## Dashboard Interface
+<img width="1896" height="995" alt="image" src="https://github.com/user-attachments/assets/61ec30fa-9743-4bfe-b776-c0875a8d6c37" />
+
 
 <img width="1897" height="990" alt="image" src="https://github.com/user-attachments/assets/e2f6d5e9-0cf4-4c06-901f-cbcd745f9483" />
 
@@ -91,22 +93,24 @@ PDF / TXT EXPORT
 
 ## Research Generation Workspace
 
-<!-- Add Screenshot -->
-![Workspace](screenshots/workspace.png)
+<img width="1896" height="988" alt="image" src="https://github.com/user-attachments/assets/eab878fa-14a1-4f44-a92d-fb44b18548a2" />
+
+<img width="1890" height="989" alt="image" src="https://github.com/user-attachments/assets/14049848-a7fb-4f3c-be98-0069e3868ee2" />
 
 ---
 
 ## Generated Research Output
 
-<!-- Add Screenshot -->
-![Research Output](screenshots/output.png)
+<img width="1893" height="984" alt="image" src="https://github.com/user-attachments/assets/585e1d2d-f6d6-4291-83cc-2e0418052451" />
 
 ---
 
-## PDF Export Feature
+## PDF and TXT Export Feature
 
-<!-- Add Screenshot -->
-![PDF Export](screenshots/pdf_export.png)
+<img width="1899" height="998" alt="image" src="https://github.com/user-attachments/assets/0186831f-243a-4856-99bd-c81dbb3f9047" />
+
+<img width="1918" height="997" alt="image" src="https://github.com/user-attachments/assets/c2d53b2d-a858-4a01-a20e-584106210c4a" />
+
 
 ---
 
@@ -133,7 +137,7 @@ research-assistant/
 │
 ├── .env
 ├── README.md
-└── LICENSE
+
 ```
 
 ---
