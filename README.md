@@ -15,7 +15,6 @@ The project combines modern AI reasoning, modular MCP architecture, real-time se
 
 ## MCP Tool Integration
 - MCP-compatible modular architecture
-- 
 The assistant includes multiple MCP-powered tools:
 
 | Tool | Description |
