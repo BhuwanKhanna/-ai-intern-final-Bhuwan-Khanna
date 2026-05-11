@@ -29,11 +29,6 @@ The project combines modern AI reasoning, modular MCP architecture, real-time se
   - TXT format
 - Local storage for generated reports
 
-## Persistent Research Memory
-- Save previous research sessions
-- Read historical research files
-- Reuse context from earlier reports
-
 ## Modern Frontend Workspace
 - High-fidelity responsive UI
 - Interactive research workflow
@@ -135,12 +130,8 @@ research-assistant/
 │   ├── index.html
 │   ├── style.css
 │   └── script.js
-│
-├── research_exports/
-│
 ├── screenshots/
 │
-├── .env
 ├── README.md
 
 ```
@@ -272,11 +263,4 @@ Generated reports can be exported in:
 - Professional PDF Documents
 - TXT Research Files
 
-All generated reports are stored inside:
-
-```text
-research_exports/
-```
-
----
 
