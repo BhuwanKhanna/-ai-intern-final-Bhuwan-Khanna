@@ -264,20 +264,6 @@ Structured Report Generation
 PDF / TXT Export
 ```
 
----
-
-# EXAMPLE RESEARCH TOPICS
-
-- Artificial Intelligence in Healthcare
-- Future of Renewable Energy
-- Quantum Computing Applications
-- Sustainable Smart Cities
-- Blockchain in Finance
-- Global Electric Vehicle Market
-- Climate Technology Innovations
-
----
-
 # EXPORT FEATURES
 
 Generated reports can be exported in:
@@ -290,17 +276,6 @@ All generated reports are stored inside:
 ```text
 research_exports/
 ```
-
----
-
-# PERFORMANCE HIGHLIGHTS
-
-- Real-time information retrieval
-- Modular MCP architecture
-- Persistent research memory
-- Long-form AI report generation
-- Scalable backend design
-- Automated export pipeline
 
 ---
 
