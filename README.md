@@ -88,16 +88,16 @@ PDF / TXT EXPORT
 
 ---
 
-<img width="1897" height="990" alt="image" src="https://github.com/user-attachments/assets/e2f6d5e9-0cf4-4c06-901f-cbcd745f9483" />
+![Dashboard](Screenshot%202026-05-11%20103010.png)
 
 ---
 
 ## Research Generation Workspace
+![Workspace](Screenshot%202026-05-11%20120702.png)
 
-<img width="1896" height="988" alt="image" src="https://github.com/user-attachments/assets/eab878fa-14a1-4f44-a92d-fb44b18548a2" />
 
 ---
-![Dashboard](Screenshot%202026-05-11%20103010.png)
+
 
 
 ---
