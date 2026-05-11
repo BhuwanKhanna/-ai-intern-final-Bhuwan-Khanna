@@ -286,19 +286,6 @@ research_exports/
 
 ---
 
-# FUTURE IMPROVEMENTS
-
-- Citation and source tracking
-- Multi-agent collaboration
-- AI-generated charts and visualizations
-- Vector database memory
-- Semantic search integration
-- Cloud deployment
-- Voice-enabled research assistant
-- Research ranking and scoring system
-
----
-
 # PERFORMANCE HIGHLIGHTS
 
 - Real-time information retrieval
@@ -310,18 +297,3 @@ research_exports/
 
 ---
 
-# LICENSE
-
-This project is licensed under the MIT License.
-
----
-
-# AUTHOR
-
-Developed by Bhuwan Khanna
-
----
-
-# STAR THE REPOSITORY
-
-If you found this project useful, consider giving it a star on GitHub.
