@@ -84,7 +84,7 @@ PDF / TXT EXPORT
 # PROJECT PREVIEW
 
 ## Dashboard Interface
-<img width="1896" height="995" alt="image" src="https://github.com/user-attachments/assets/61ec30fa-9743-4bfe-b776-c0875a8d6c37" />
+![Preview](Screenshot%202026-05-11%20120645.png)
 
 ---
 
@@ -115,8 +115,7 @@ PDF / TXT EXPORT
 
 ---
 
-<img width="1918" height="997" alt="image" src="https://github.com/user-attachments/assets/c2d53b2d-a858-4a01-a20e-584106210c4a" />
-
+![System](Screenshot%202026-05-11%20121008.png)
 
 ---
 
