@@ -12,9 +12,9 @@ const toast = document.getElementById('toast');
 
 let currentReportId = '';
 
-// Handle Splash Screen Transition
+// Splash Screen Transition
 window.addEventListener('DOMContentLoaded', () => {
-    // 2.5s for the cinematic loading bar animation to complete
+    // 2.5s for loading bar animation to complete
     setTimeout(() => {
         splashScreen.style.opacity = '0';
         splashScreen.style.transform = 'scale(1.1)';
