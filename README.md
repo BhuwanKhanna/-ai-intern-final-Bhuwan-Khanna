@@ -106,7 +106,7 @@ PDF / TXT EXPORT
 
 ## Generated Research Output
 
-
+![System](Screenshot%202026-05-11%20120851.png)
 ---
 
 ## PDF and TXT Export Feature
