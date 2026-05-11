@@ -95,6 +95,8 @@ PDF / TXT EXPORT
 ## Research Generation Workspace
 ![Workspace](Screenshot%202026-05-11%20120702.png)
 
+![Research Output](Screenshot%202026-05-11%20120828.png)
+
 
 ---
 
@@ -104,7 +106,6 @@ PDF / TXT EXPORT
 
 ## Generated Research Output
 
-![Research Output](Screenshot%202026-05-11%20120828.png)
 
 ---
 
