@@ -104,13 +104,13 @@ PDF / TXT EXPORT
 
 ## Generated Research Output
 
-<img width="1893" height="984" alt="image" src="https://github.com/user-attachments/assets/585e1d2d-f6d6-4291-83cc-2e0418052451" />
+![Research Output](Screenshot%202026-05-11%20120828.png)
 
 ---
 
 ## PDF and TXT Export Feature
 
-<img width="1899" height="998" alt="image" src="https://github.com/user-attachments/assets/0186831f-243a-4856-99bd-c81dbb3f9047" />
+![Export](Screenshot%202026-05-11%20120919.png)
 
 ---
 
